@@ -1,0 +1,47 @@
+body {
+  background-color:darkslateblue;
+}
+
+.list-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  margin: 100px auto;
+}
+
+.list-input > div {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.list-input > div > input {
+  padding: 5px;
+  font-size: 15px;
+  width: 275px;
+}
+
+.students-list {
+  border: 2px solid black;
+  padding-left: 0px;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+}
+
+.students-list > li {
+  list-style: none;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.add-student-button {
+  width: 100px;
+  margin: 0px 10px 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px solid black;
+  background-color: white;
+  color: black;
+}
